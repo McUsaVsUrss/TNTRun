@@ -3,57 +3,56 @@
  * modify it under the terms of the GNU General Public License
  * as published by the Free Software Foundation; either version 3
  * of the License, or (at your option) any later version.
- *
+ * <p>
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- *
+ * <p>
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
- *
  */
 
 package tntrun.datahandler;
+
+import tntrun.arena.Arena;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 
-import tntrun.arena.Arena;
-
 public class ArenasManager {
 
-	private HashMap<String, Arena> arenanames = new HashMap<String, Arena>();
+    private HashMap<String, Arena> arenanames = new HashMap<String, Arena>();
 
-	public void registerArena(Arena arena) {
-		arenanames.put(arena.getArenaName(), arena);
-	}
+    public void registerArena(Arena arena) {
+        arenanames.put(arena.getArenaName(), arena);
+    }
 
-	public void unregisterArena(Arena arena) {
-		arenanames.remove(arena.getArenaName());
-	}
+    public void unregisterArena(Arena arena) {
+        arenanames.remove(arena.getArenaName());
+    }
 
-	public Collection<Arena> getArenas() {
-		return arenanames.values();
-	}
+    public Collection<Arena> getArenas() {
+        return arenanames.values();
+    }
 
-	public Set<String> getArenasNames() {
-		return arenanames.keySet();
-	}
+    public Set<String> getArenasNames() {
+        return arenanames.keySet();
+    }
 
-	public Arena getArenaByName(String name) {
-		return arenanames.get(name);
-	}
+    public Arena getArenaByName(String name) {
+        return arenanames.get(name);
+    }
 
-	public Arena getPlayerArena(String name) {
-		for (Arena arena : arenanames.values()) {
-			if (arena.getPlayersManager().isInArena(name)) {
-				return arena;
-			}
-		}
-		return null;
-	}
+    public Arena getPlayerArena(String name) {
+        for (Arena arena : arenanames.values()) {
+            if (arena.getPlayersManager().isInArena(name)) {
+                return arena;
+            }
+        }
+        return null;
+    }
 
 }
