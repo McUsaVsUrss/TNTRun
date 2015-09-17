@@ -6,205 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00d982d-3307-4933-8850-0b26cc51c75a" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\TNTRun.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\artifacts\TntRunNew_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\copyright\Matte_Carra.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\libraries\BarAPIReplacer_v1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\libraries\CCOMMANDER.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\libraries\Vault.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\libraries\spigot_1_8_8_4Aug.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\libraries\worldedit_bukkit_6_0_2_SNAPSHOT_dist.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\libraries\worldguard_6_0_0_SNAPSHOT.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\TntRunNew.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\build.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\config.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\config.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\plugin.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\FormattingCodesParser.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\TNTRun$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\TNTRun.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\Arena.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\GameHandler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\GameHandler$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\GameHandler$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\GameHandler$4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\GameHandler$5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\GameHandler$6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\GameHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\PlayerHandler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\PlayerHandler$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\handlers\PlayerHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\status\PlayersManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\status\StatusManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\GameZone$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\GameZone$PlayerPosition.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\GameZone.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\Kits$Kit.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\Kits.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\LoseLevel.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\Rewards.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\StructureManager$DamageEnabled.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\StructureManager$TeleportDestination.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\arena\structure\StructureManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\ConsoleCommands.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\GameCommands.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\CommandHandlerInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\SetupCommandsHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\AddCommandsRewards.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\AddKit.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\ClearCommandsRewards.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\CreateArena.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\DeleteArena.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\DeleteKit.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\DeleteSpectatorSpawn.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\DisableArena.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\EnableArena.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\FinishArena.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetArena.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetCountdown.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetDamage.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetGameLevelDestroyDelay.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetItemsRewards.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetLoseLevel.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetMaxPlayers.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetMinPlayers.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetMoneyRewards.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetSpawn.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetSpectatorSpawn.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetTeleport.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetTimeLimit.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\arena\SetVotePercent.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\lobby\DeleteLobby.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\lobby\SetLobby.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\reload\ReloadBars.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\reload\ReloadConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\reload\ReloadTitles.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\selection\Clear.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\selection\SetP1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\commands\setup\selection\SetP2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\datahandler\ArenasManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\datahandler\PlayerDataStore.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\eventhandler\PlayerLeaveArenaChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\eventhandler\PlayerStatusHandler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\eventhandler\PlayerStatusHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\eventhandler\RestrictionHandler$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\eventhandler\RestrictionHandler$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\eventhandler\RestrictionHandler$3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\eventhandler\RestrictionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\lobby\GlobalLobby.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\lobby\LobbyLocation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\messages\Messages.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\selectionget\OwnLocations.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\selectionget\PlayerCuboidSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\selectionget\PlayerSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\selectionget\WEIntegration.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\signs\SignHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\signs\editor\SignEditor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\signs\editor\SignInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\signs\type\JoinSign$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\signs\type\JoinSign.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\signs\type\LeaveSign.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\signs\type\SignType.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\signs\type\VoteSign.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\utils\ActionBar.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\utils\Bars.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\utils\Shop.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\utils\ShopFiles.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\utils\Title.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\utils\TitleMsg.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\out\production\TntRunNew\tntrun\utils\Title_1_7_R4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\plugin.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\config.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\plugin.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\FormattingCodesParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\TNTRun.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\Arena.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\handlers\GameHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\handlers\PlayerHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\status\PlayersManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\status\StatusManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\structure\GameZone.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\structure\Kits.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\structure\LoseLevel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\structure\Rewards.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\arena\structure\StructureManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\ConsoleCommands.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\GameCommands.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\CommandHandlerInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\SetupCommandsHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\AddCommandsRewards.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\AddKit.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\ClearCommandsRewards.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\CreateArena.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\DeleteArena.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\DeleteKit.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\DeleteSpectatorSpawn.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\DisableArena.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\EnableArena.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\FinishArena.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetArena.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetCountdown.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetDamage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetGameLevelDestroyDelay.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetItemsRewards.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetLoseLevel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetMaxPlayers.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetMinPlayers.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetMoneyRewards.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetSpawn.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetSpectatorSpawn.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetTeleport.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetTimeLimit.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\arena\SetVotePercent.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\lobby\DeleteLobby.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\lobby\SetLobby.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\reload\ReloadBars.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\reload\ReloadConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\reload\ReloadTitles.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\selection\Clear.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\selection\SetP1.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\commands\setup\selection\SetP2.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\datahandler\ArenasManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\datahandler\PlayerDataStore.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\eventhandler\PlayerLeaveArenaChecker.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\eventhandler\PlayerStatusHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\eventhandler\RestrictionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\lobby\GlobalLobby.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\lobby\LobbyLocation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\messages\Messages.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\selectionget\OwnLocations.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\selectionget\PlayerCuboidSelection.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\selectionget\PlayerSelection.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\selectionget\WEIntegration.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\signs\SignHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\signs\editor\SignEditor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\signs\editor\SignInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\signs\type\JoinSign.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\signs\type\LeaveSign.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\signs\type\SignType.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\signs\type\VoteSign.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\utils\ActionBar.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\utils\Bars.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\utils\Shop.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\utils\ShopFiles.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\utils\Title.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\utils\TitleMsg.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\matte\workspaceRepos\TNTRun\src\tntrun\utils\Title_1_7_R4.java" afterPath="" />
-    </list>
+    <list default="true" id="a00d982d-3307-4933-8850-0b26cc51c75a" name="Default" comment="" />
     <ignored path="TntRunNew.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -226,11 +28,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TNTRun.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TNTRun.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tntrun/TNTRun.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.512012">
+            <state vertical-scroll-proportion="0.0">
               <caret line="103" column="41" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -256,21 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormattingCodesParser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FormattingCodesParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tntrun/FormattingCodesParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.15315315">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameZone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tntrun/arena/structure/GameZone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -281,16 +96,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisableArena.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tntrun/commands/setup/arena/DisableArena.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -726,12 +531,12 @@
       <option name="number" value="Default" />
       <updated>1441218092716</updated>
       <workItem from="1442503827867" duration="78000" />
-      <workItem from="1442504422619" duration="804000" />
+      <workItem from="1442504422619" duration="1081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="882000" />
+    <option name="totallyTimeSpent" value="1159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -785,22 +590,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tntrun/commands/setup/SetupCommandsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="37" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tntrun/TNTRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tntrun/arena/structure/GameZone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1157,18 +946,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tntrun/FormattingCodesParser.java">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tntrun/TNTRun.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.512012">
+        <state vertical-scroll-proportion="0.0">
           <caret line="103" column="41" selection-start-line="103" selection-start-column="41" selection-end-line="103" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tntrun/FormattingCodesParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15315315">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
