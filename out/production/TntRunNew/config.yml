@@ -1,0 +1,53 @@
+#Titles only works for spigot/craftbukkit 1.8 or higher + protocol hack working
+special:
+   FancyBlockBreak: true
+   UseBarApi: true
+   UseTitle: true
+   UseScoreboard: true
+info:
+   list:
+   - '&6&lThe TNTRun plugin by The_TadeSK'
+   - '&6 '
+   - '&6&lNow try and play'
+shop:
+   name: '&6&lTNTRun &f&lSHOP'
+   size: 27
+   doublejump:
+      maxdoublejumps: 50
+commandsonwin:
+- say {PLAYER} won tntrun
+- say Congratulations...
+items:
+   vote:
+      use: true
+      ID: '264:0'
+      name: '&cVOTE'
+   info:
+      use: true
+      ID: '388:0'
+      name: '&cINFO'
+   shop:
+      use: true
+      ID: '399:0'
+      name: '&cSHOP'
+   leave:
+      ID: '355:0'
+      name: '&cLEAVE'
+scoreboard:
+   waiting:
+   - '&fWelcome to TNTRun'
+   - '&a '
+   - '&fArena: &6&l{ARENA}'
+   - '&b '
+   - '&fPlayers: &a&l{PS}&7&l/&c&l{MPS}'
+   - '&c '
+   - '&fStarting in: &6&l{COUNT}'
+   playing:
+   - '&fPlaying TNTRun'
+   - '&fon arena: &6&l{ARENA}'
+   - '&b '
+   - '&fPlayers: &a&l{PS}&7&l/&c&l{MPS}'
+   - '&c '
+   - '&fLost Players: &a&l{LOST}'
+   - '&2 '
+   - '&fEnd in: &c&l{LIMIT}'
