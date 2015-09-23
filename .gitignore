@@ -1,0 +1,7 @@
+/bin/
+/.idea/
+.idea/
+out/
+/out/
+.idea/libraries/CCOMMANDER.xml
+out/production/TntRunNew/tntrun/arena/handlers/GameHandler.class

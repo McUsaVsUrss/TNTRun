@@ -1,0 +1,246 @@
+/**
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 3
+ * of the License, or (at your option) any later version.
+ * <p>
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * <p>
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ */
+
+package tntrun.eventhandler;
+
+import org.bukkit.Bukkit;
+import org.bukkit.GameMode;
+import org.bukkit.Material;
+import org.bukkit.Sound;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.EventPriority;
+import org.bukkit.event.Listener;
+import org.bukkit.event.block.Action;
+import org.bukkit.event.block.BlockBreakEvent;
+import org.bukkit.event.block.BlockPlaceEvent;
+import org.bukkit.event.player.PlayerCommandPreprocessEvent;
+import org.bukkit.event.player.PlayerDropItemEvent;
+import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.event.player.PlayerToggleFlightEvent;
+import org.bukkit.inventory.Inventory;
+import tntrun.TNTRun;
+import tntrun.arena.Arena;
+import tntrun.messages.Messages;
+import tntrun.utils.Shop;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+
+public class RestrictionHandler implements Listener {
+
+    public ArrayList<Player> u = new ArrayList<Player>();
+    private TNTRun plugin;
+    private HashSet<String> allowedcommands = new HashSet<String>(
+            Arrays.asList("/tntrun leave", "/tntrun vote", "/tr leave", "/tr vote", "/tr help", "/tr info")
+    );
+
+    public RestrictionHandler(TNTRun plugin) {
+        this.plugin = plugin;
+    }
+
+    // player should not be able to issue any commands besides /tr leave and /tr vote while in arena
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+    public void onPlayerCommand(PlayerCommandPreprocessEvent e) {
+        Player player = e.getPlayer();
+        Arena arena = plugin.amanager.getPlayerArena(player.getName());
+        // ignore if player is not in arena
+        if (arena == null) {
+            return;
+        }
+        // allow use any command if player has permission
+        if (player.hasPermission("tntrun.cmdblockbypass")) {
+            return;
+        }
+        // now check command
+        if (!allowedcommands.contains(e.getMessage().toLowerCase())) {
+            Messages.sendMessage(player, Messages.nopermission);
+            e.setCancelled(true);
+        }
+    }
+
+    // player should not be able to break blocks while in arena
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+    public void onPlayerBlockBreak(BlockBreakEvent e) {
+        Player player = e.getPlayer();
+        Arena arena = plugin.amanager.getPlayerArena(player.getName());
+        // ignore if player is not in arena
+        if (arena == null) {
+            return;
+        }
+        e.setCancelled(true);
+    }
+
+    // player should not be able to place blocks while in arena
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+    public void onPlayerBlockPlace(BlockPlaceEvent e) {
+        Player player = e.getPlayer();
+        Arena arena = plugin.amanager.getPlayerArena(player.getName());
+        // ignore if player is not in arena
+        if (arena == null) {
+            return;
+        }
+        e.setCancelled(true);
+    }
+
+    //player is not able to drop items while in arena
+    @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = true)
+    public void onPlayerItemDrop(PlayerDropItemEvent e) {
+        Player player = e.getPlayer();
+        Arena arena = plugin.amanager.getPlayerArena(player.getName());
+        // ignore if player is not in arena
+        if (arena == null) {
+            return;
+        }
+        e.setCancelled(true);
+    }
+
+    //check interact
+    @EventHandler
+    public void onPlayerInteract(PlayerInteractEvent e) {
+        final Player player = e.getPlayer();
+        Arena arena = plugin.amanager.getPlayerArena(player.getName());
+
+        String[] ids1 = plugin.getConfig().getString("items.shop.ID").split(":");
+        String[] ids2 = plugin.getConfig().getString("items.vote.ID").split(":");
+        String[] ids3 = plugin.getConfig().getString("items.info.ID").split(":");
+        String[] ids4 = plugin.getConfig().getString("items.leave.ID").split(":");
+
+        // check item
+        if (e.getAction() == Action.RIGHT_CLICK_AIR || e.getAction() == Action.RIGHT_CLICK_BLOCK) {
+            if (e.getMaterial() == Material.getMaterial(Integer.parseInt(ids4[0]))) {
+                if (e.getItem().getData().getData() == (byte) Byte.parseByte(ids4[1])) {
+                    player.playSound(player.getLocation(), Sound.ORB_PICKUP, 1, 1);
+                    if (arena != null) {
+                        e.setCancelled(true);
+                        arena.getPlayerHandler().leavePlayer(player, Messages.playerlefttoplayer, Messages.playerlefttoothers);
+                    }
+                }
+            }
+        }
+        if (e.getMaterial() == Material.getMaterial(Integer.parseInt(ids1[0]))) {
+            if (e.getItem().getData().getData() == (byte) Byte.parseByte(ids1[1])) {
+                if (arena != null) {
+                    player.playSound(player.getLocation(), Sound.ORB_PICKUP, 1, 1);
+                    Inventory inv = Bukkit.createInventory(null, Shop.invsize, Shop.invname);
+                    Shop.setItems(inv);
+                    player.openInventory(inv);
+                }
+            }
+        }
+
+        if (e.getMaterial() == Material.getMaterial(Integer.parseInt(ids3[0]))) {
+            if (e.getItem().getData().getData() == (byte) Byte.parseByte(ids3[1])) {
+                if (arena != null) {
+                    if (u.contains(player)) {
+                        player.playSound(player.getLocation(), Sound.WITHER_HURT, 1, (float) 0.001);
+                        return;
+                    }
+                    u.add(player);
+                    Bukkit.getScheduler().runTaskLater(plugin, new Runnable() {
+                        public void run() {
+                            u.remove(player);
+                        }
+                    }, 40);
+                    player.playSound(player.getLocation(), Sound.ORB_PICKUP, 1, 1);
+                    for (String list : plugin.getConfig().getStringList("info.list")) {
+                        player.sendMessage(list.replace("&", "§"));
+                    }
+                }
+            }
+        }
+
+        if (e.getMaterial() == Material.getMaterial(Integer.parseInt(ids2[0]))) {
+            if (e.getItem().getData().getData() == (byte) Byte.parseByte(ids2[1])) {
+                if (arena != null) {
+                    if (u.contains(player)) {
+                        player.playSound(player.getLocation(), Sound.WITHER_HURT, 1, (float) 0.001);
+                        return;
+                    }
+                    player.playSound(player.getLocation(), Sound.ORB_PICKUP, 1, 1);
+                    u.add(player);
+                    Bukkit.getScheduler().runTaskLater(plugin, new Runnable() {
+                        public void run() {
+                            u.remove(player);
+                        }
+                    }, 40);
+                    if (arena.getStatusManager().isArenaStarting()) {
+                        player.sendMessage(Messages.arenastarting.replace("&", "§"));
+                        return;
+                    }
+                    if (arena.getPlayerHandler().vote(player)) {
+                        player.sendMessage(Messages.playervotedforstart.replace("&", "§"));
+                    } else {
+                        player.sendMessage(Messages.playeralreadyvotedforstart.replace("&", "§"));
+                    }
+                }
+            }
+        }
+    }
+
+    @EventHandler
+    public void onFly(PlayerToggleFlightEvent e) {
+        final Player p = e.getPlayer();
+        Arena arena = plugin.amanager.getPlayerArena(p.getName());
+
+        if (p.getGameMode() != GameMode.CREATIVE) {
+            if (arena != null) {
+                if (arena.getPlayersManager().isSpectator(p.getName())) {
+                    e.setCancelled(false);
+                    p.setFlying(true);
+                    return;
+                }
+                if (!arena.getStatusManager().isArenaRunning()) {
+                    e.setCancelled(true);
+                    return;
+                }
+                if (u.contains(p)) {
+                    e.setCancelled(true);
+                    return;
+                }
+                if (plugin.getConfig().get("doublejumps." + p.getName()) == null || plugin.getConfig().getInt("doublejumps." + p.getName()) == 0) {
+                    e.setCancelled(true);
+                    p.setAllowFlight(false);
+                    plugin.getConfig().set("doublejumps." + p.getName(), null);
+                    plugin.saveConfig();
+                    return;
+                } else {
+                    plugin.getConfig().set("doublejumps." + p.getName(), plugin.getConfig().getInt("doublejumps." + p.getName()) - 1);
+                }
+                e.setCancelled(true);
+                p.setFlying(false);
+                p.setVelocity(p.getLocation().getDirection().multiply(1.5D).setY(0.7D));
+                p.getLocation().getWorld().playSound(p.getLocation(), Sound.WITHER_SHOOT, 10F, -10.0F);
+                plugin.saveConfig();
+                u.add(p);
+
+                Bukkit.getScheduler().runTaskLater(plugin, new Runnable() {
+                    public void run() {
+                        u.remove(p);
+                        p.setAllowFlight(true);
+                    }
+                }, 20);
+            } else {
+                if (p.hasPermission("tntrun.fly.everywhere")) {
+                    e.setCancelled(false);
+                } else {
+                    e.setCancelled(true);
+                }
+            }
+        }
+    }
+}
